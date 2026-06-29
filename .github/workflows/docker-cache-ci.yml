@@ -31,4 +31,4 @@ jobs:
           push: true
           tags: umamaheswaritalupuri/test:latest
           cache-from: type=registry,ref=umamaheswaritalupuri/test:buildcache
-          cache-to: type=registry,ref=:umamaheswaritalupuri/test:buildcache,mode=max
+          cache-to: type=registry,ref=umamaheswaritalupuri/test:buildcache,mode=max
